@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 104, 104);
+}
+
+.heart-1 {
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    transform: rotate(-45deg);
+}
+
+.heart-2 {
+  height: 5rem;
+  width: 5rem;
+  background-color: red;
+  position: absolute;
+  left: 20rem;
+  top: 10rem;
+  transform: rotate(-45deg);
+}
+
+.heart-3 {
+  height: 5rem;
+  width: 5rem;
+  background-color: red;
+  position: absolute;
+  right: 20rem;
+  top: 2rem;
+  transform: rotate(-45deg);
+}
+
+.heart-4 {
+  height: 5rem;
+  width: 5rem;
+  background-color: red;
+  position: absolute;
+  right: 20rem;
+  top: 2rem;
+  transform: rotate(-45deg);
+}
