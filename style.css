@@ -1,8 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 
 body {
   width: 100%;
@@ -36,7 +37,7 @@ body {
 .four {
   grid-row: 3 / -1;
   grid-column: 2 / -1;
-  }
+}
 
 .quarter { 
   display: flex;
@@ -49,149 +50,165 @@ body {
 }
 
 .heart-1 {
-    width: 5rem;
-    height: 5rem;
-    position: relative;
-    background-color: #831916;
-    animation: heart-beat 1.5s ease-in-out infinite both;  
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  background-color: #831916;
+  animation: heart-beat 1.5s ease-in-out infinite both;  
 }
 
 .heart-1::before {
-    content: "";
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    border-radius: 50%;
-    background-color:  #831916;
-    left: -2.5rem;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color:  #831916;
+  left: -2.5rem;
 }
 
 .heart-1::after {
-    content: "";
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    border-radius: 50%;
-    background-color: #831916;
-    bottom: 2.5rem;
-    left: 0;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #831916;
+  bottom: 2.5rem;
+  left: 0;
 }
 
 .heart-2 {
-    width: 5rem;
-    height: 5rem;
-    position: relative;
-    background-color: #9C1B1D;
-    animation: heart-beat 1.2s ease-in-out infinite both;  
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  background-color: #9C1B1D;
+  animation: heart-beat 1.2s ease-in-out infinite both;  
 }
 
 .heart-2::before {
-    content: "";
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    border-radius: 50%;
-    background-color: #9C1B1D;
-    left: -2.5rem;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #9C1B1D;
+  left: -2.5rem;
 }
 
 .heart-2::after {
-    content: "";
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    border-radius: 50%;
-    background-color: #9C1B1D;
-    bottom: 2.5rem;
-    left: 0;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #9C1B1D;
+  bottom: 2.5rem;
+  left: 0;
 }
 
 
 .heart-3 {
-    width: 5rem;
-    height: 5rem;
-    position: relative;
-    background-color:  #B42522;
-    animation: heart-beat 2s ease-in-out infinite both;  
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  background-color:  #B42522;
+  animation: heart-beat 2s ease-in-out infinite both;  
 }
 
 .heart-3::before {
-    content: "";
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    border-radius: 50%;
-    background-color:  #B42522;
-    left: -2.5rem;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color:  #B42522;
+  left: -2.5rem;
 }
 
 .heart-3::after {
-    content: "";
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    border-radius: 50%;
-    background-color: #B42522;
-    bottom: 2.5rem;
-    left: 0;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #B42522;
+  bottom: 2.5rem;
+  left: 0;
 }
 
 
 .heart-4 {
-    width: 5rem;
-    height: 5rem;
-    position: relative;
-    background-color: #C9362C;
-    animation: heart-beat 4s ease-in-out infinite both;  
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  background-color: #C9362C;
+  animation: heart-beat 4s ease-in-out infinite both;  
 }
 
 .heart-4::before {
-    content: "";
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    border-radius: 50%;
-    background-color: #C9362C;
-    left: -2.5rem;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #C9362C;
+  left: -2.5rem;
 }
 
 .heart-4::after {
-    content: "";
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    border-radius: 50%;
-    background-color: #C9362C;
-    bottom: 2.5rem;
-    left: 0;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #C9362C;
+  bottom: 2.5rem;
+  left: 0;
 }
-
+/* =================== Form ==================== */
 aside {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-form {
-  flex-basis: 90%;
+  height: 6rem;
 }
 
 fieldset {
-  height: 5rem;
+  border: 1px solid #831916;
+
 }
 
 legend {
   text-align: center;
+  padding: 1ch;
 }
 
-input {
+.inline-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  height: 4rem;
+}
+
+.labels {
+  padding: 0 4rem 0 2rem;
+}
+
+.labels input {
+  height: 2rem;
   border: none;
   border-radius: 2rem;
-  padding: 2ch;
-  height: 2rem;  
-  width: 20rem;
+  padding: 1ch;
 }
 
+.button input {
+  height: 2rem;
+  width: 10rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: white;
+}
+
+/* ========================= Keyframes and media queries ========================== */
 
 @keyframes heart-beat {
   from {
