@@ -10,7 +10,7 @@ body {
   background-color: rgb(243, 104, 104);
 }
 
-.container {
+.animation-container {
   width: 100%;
   height: 100vh;
   display: grid;
@@ -52,7 +52,7 @@ body {
     width: 5rem;
     height: 5rem;
     position: relative;
-    background-color: red;
+    background-color: #831916;
     animation: heart-beat 1.5s ease-in-out infinite both;  
 }
 
@@ -62,7 +62,7 @@ body {
     height: 5rem;
     position: absolute;
     border-radius: 50%;
-    background-color: red;
+    background-color:  #831916;
     left: -2.5rem;
 }
 
@@ -72,7 +72,7 @@ body {
     height: 5rem;
     position: absolute;
     border-radius: 50%;
-    background-color: red;
+    background-color: #831916;
     bottom: 2.5rem;
     left: 0;
 }
@@ -81,7 +81,7 @@ body {
     width: 5rem;
     height: 5rem;
     position: relative;
-    background-color: red;
+    background-color: #9C1B1D;
     animation: heart-beat 1.2s ease-in-out infinite both;  
 }
 
@@ -91,7 +91,7 @@ body {
     height: 5rem;
     position: absolute;
     border-radius: 50%;
-    background-color: red;
+    background-color: #9C1B1D;
     left: -2.5rem;
 }
 
@@ -101,7 +101,7 @@ body {
     height: 5rem;
     position: absolute;
     border-radius: 50%;
-    background-color: red;
+    background-color: #9C1B1D;
     bottom: 2.5rem;
     left: 0;
 }
@@ -111,7 +111,7 @@ body {
     width: 5rem;
     height: 5rem;
     position: relative;
-    background-color: red;
+    background-color:  #B42522;
     animation: heart-beat 2s ease-in-out infinite both;  
 }
 
@@ -121,7 +121,7 @@ body {
     height: 5rem;
     position: absolute;
     border-radius: 50%;
-    background-color: red;
+    background-color:  #B42522;
     left: -2.5rem;
 }
 
@@ -131,7 +131,7 @@ body {
     height: 5rem;
     position: absolute;
     border-radius: 50%;
-    background-color: red;
+    background-color: #B42522;
     bottom: 2.5rem;
     left: 0;
 }
@@ -141,8 +141,8 @@ body {
     width: 5rem;
     height: 5rem;
     position: relative;
-    background-color: red;
-    animation: heart-beat 1s ease-in-out infinite both;  
+    background-color: #C9362C;
+    animation: heart-beat 4s ease-in-out infinite both;  
 }
 
 .heart-4::before {
@@ -151,7 +151,7 @@ body {
     height: 5rem;
     position: absolute;
     border-radius: 50%;
-    background-color: red;
+    background-color: #C9362C;
     left: -2.5rem;
 }
 
@@ -161,10 +161,37 @@ body {
     height: 5rem;
     position: absolute;
     border-radius: 50%;
-    background-color: red;
+    background-color: #C9362C;
     bottom: 2.5rem;
     left: 0;
 }
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  flex-basis: 90%;
+}
+
+fieldset {
+  height: 5rem;
+}
+
+legend {
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-radius: 2rem;
+  padding: 2ch;
+  height: 2rem;  
+  width: 20rem;
+}
+
 
 @keyframes heart-beat {
   from {
@@ -192,7 +219,7 @@ body {
 
 @media screen and (max-width: 492px) { 
 
-  .container {
+  .animation-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
   }
